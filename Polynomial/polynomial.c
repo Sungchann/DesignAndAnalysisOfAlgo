@@ -82,7 +82,7 @@ void displayEquation(int arrayOfCoefficientsAndConstant[], int highExpo){
     printf("THE POLYNOMIAL EQUATION\n");
 
     for(int x=highExpo; x>=0; x--){
-        if (arrayOfCoefficientsAndConstant[x] != 0){
+        if (arrayOfCoefficientsAndConstant[x] != 0 || x==0){
             //DISPLAYING TERMS
             if(x!=0){
                 printf("%dx^%d ", arrayOfCoefficientsAndConstant[x], x);

@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (void){
+    int numRows, usersChoice;
+
+    do{
+        printf("PASCAL TRIANGLE\n");
+        printf("Enter number of rows: ");
+        scanf("%d", &numRows);
+        printf("[1]Generate using Iteration \n[2]Generate using Recursion\n[3]Exit\n");
+        printf("Enter option: ");
+        scanf("%d," &usersChoice);
+        
+        if(usersChoice == 1){
+
+        }
+        else if (usersChoice == 2){
+
+        }
+        else if (usersChoice != 3){
+            system("cls");
+        }
+
+    }while(usersChoice != 3);
+
+    return 0; 
+
+}
